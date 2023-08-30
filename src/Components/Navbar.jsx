@@ -7,7 +7,7 @@ const Navbar = () => {
 <div className='d-flex justify-content-center' style={{backgroundColor:'#f2dad5 ', color:'#101010', paddingBottom:'25px', paddingTop:'25px' }}>
 <nav className="d-flex align-items-center">
             <img src="logo.png" style={{ width: '60px' }} alt="Image" />
-            <Link to="/Home" className="nav-link mx-2">
+            <Link to="/" className="nav-link mx-2">
                 DressWithElegance
             </Link>
             <Link to="/Nosotros" className="nav-link mx-2">
@@ -20,9 +20,9 @@ const Navbar = () => {
     </div>
     <Outlet/>
     {/* FOOTER*/}
-      <footer className="d-flex flex-wrap footerStyle">
+    <footer className="d-flex flex-wrap footerStyle">
             <div className="col-12 col-lg-6">
-              <h1 style={{ paddingTop: '30px', paddingLeft: '90px' }}>DRESS WITH ELEGANCE</h1>
+            <h1 style={{ paddingTop: '30px', paddingLeft: '90px' }}>DRESS WITH ELEGANCE</h1>
                 <p style={{ paddingTop: '30px', paddingLeft: '90px' }}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolore
                     eaque id fuga harum nisi dolorum maxime debitis quod excepturi sint
