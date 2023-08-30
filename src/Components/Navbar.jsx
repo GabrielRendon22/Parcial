@@ -34,9 +34,8 @@ const Navbar = () => {
                 
             </div>
             <div className="col-8 col-lg-3 mt-4">
-                <div className="d-flex">
-                <i style={{ paddingTop: '30px', paddingLeft: '40px' }}>Diseñado por:</i> <br />                
-                <i style={{ paddingTop: '30px', paddingLeft: '10px' }}>Gabriel Alejandro Rendón Alas</i>
+                <div className="d-flex">                              
+                <i style={{ paddingTop: '30px', paddingLeft: '45px', fontSize:'20px' }}>By: Gabriel Rendón</i>
                 </div>
                 <h4 className="ms-0 ms-lg-5 mt-3" >SUBSCRIBE FOR UPDATES</h4>
                 <p className="ms-0 ms-lg-5 text-light">

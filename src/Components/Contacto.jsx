@@ -7,7 +7,7 @@ const Contacto = () => {
         <div className="col-6">
           <br></br>
           <br></br>
-          <h1 className="mt-5 " style={{  color: '#101010', fontSize:'50px', fontFamily:'EB Garamond'  }}> PORQUE CENICIENTA TAMBIÉN<br />NECESITO AYUDA</h1>
+          <h1 className="mt-5 " style={{  color: '#101010', fontSize:'50px', fontFamily:'EB Garamond'  }}> PORQUE CENICIENTA TAMBIÉN<br />NECESITÓ AYUDA</h1>
           <p style={{  color: '#fa7f77', fontSize:'40px' , fontFamily:'Allura',marginLeft:'10px' }}>Contáctanos para asesorarte</p>
           <div className="input-group mb-3">
             <input
