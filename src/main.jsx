@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import './index.css'
 import Navbar from './Components/Navbar'
-import Index from './Components/Index'
-import Nosotros from './Components/Nosotros'
-import Contacto from './Components/Contacto'
+import Index from './Components/Index'  
+import Doctrina from './Components/Doctrina'
+import Novarum from './Components/Novarum'
+import Dimensioneshumanas from './Components/Dimensioneshumanas'
+import Humanderechos from './Components/Humanderechos'
+import Principio from './Components/Principio'
 
 
 
@@ -18,12 +21,24 @@ const router = createBrowserRouter([{
       element: <Index/>
     },
     {
-    path: '/Nosotros',
-    element:<Nosotros/>
+    path: '/Doctrina',
+    element:<Doctrina/>
     },
     {
-    path: '/Contacto',
-    element:<Contacto/>
+    path: '/Novarum',
+    element:<Novarum/>
+    },
+    {
+    path: '/Dimensioneshumanas',
+    element:<Dimensioneshumanas/>
+    },
+    {
+    path: '/Humanderechos',
+    element:<Humanderechos/>
+    },
+    {
+    path: '/Principio',
+    element:<Principio/>
     }
   ]
 }])

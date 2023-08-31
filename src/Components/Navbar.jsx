@@ -4,61 +4,31 @@ import { Link,Outlet } from 'react-router-dom'
 const Navbar = () => {
   return (<div>
     
-<div className='d-flex justify-content-center' style={{backgroundColor:'#f2dad5 ', color:'#101010', paddingBottom:'25px', paddingTop:'25px' }}>
-<nav className="d-flex align-items-center">
-            <img src="logo.png" style={{ width: '60px' }} alt="Image" />
+<div className='d-flex justify-content-center' style={{backgroundColor:'#172E4B', color:'#f3ca4c', paddingBottom:'25px', paddingTop:'25px' }}>
+<nav className="d-flex align-items-center" style={{fontSize:'30px'}}>
+<img src="800px-UNICAES_Logo.png" style={{ width: '60px' }} alt="Image" />                      
             <Link to="/" className="nav-link mx-2">
-                DressWithElegance
+                Etica Social
             </Link>
-            <Link to="/Nosotros" className="nav-link mx-2">
-                About Us
-            </Link>
-            <Link to="/Contacto" className="nav-link mx-2">
-                Contacto
-            </Link>
+            
         </nav>              
     </div>
     <Outlet/>
     {/* FOOTER*/}
-    <footer className="d-flex flex-wrap footerStyle">
-            <div className="col-12 col-lg-6">
-            <h1 style={{ paddingTop: '30px', paddingLeft: '90px' }}>DRESS WITH ELEGANCE</h1>
-                <p style={{ paddingTop: '30px', paddingLeft: '90px' }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolore
-                    eaque id fuga harum nisi dolorum maxime debitis quod excepturi sint
-                    quas mollitia ex enim sed inventore, praesentium aliquid cum.
-                </p>
-                <p>
-                    <i className="bi bi-c-circle" style={{ paddingLeft: '90px' }}></i> 2025 Mobirise. All rights reserved.
-                </p>
-                
-            </div>
-            <div className="col-8 col-lg-3 mt-4">
+    <footer className="d-flex flex-wrap footerStyle" style={{backgroundColor:'#172E4B', color:'#f3ca4c'}}>
+    <div className="container d-flex" style={{marginLeft:'300px' }}>
+            <div className="col-12 ">
                 <div className="d-flex">                              
-                <i style={{ paddingTop: '30px', paddingLeft: '45px', fontSize:'20px' }}>By: Gabriel Rendón</i>
-                </div>
-                <h4 className="ms-0 ms-lg-5 mt-3" >SUBSCRIBE FOR UPDATES</h4>
-                <p className="ms-0 ms-lg-5 text-light">
-                    <a href="mailto:email@example.com" className="text-dark">test@example.com</a>
-                    <i className="bi bi-arrow-right ms-2 text-light"></i>
+                <i style={{ paddingTop: '30px', paddingLeft: '45px', fontSize:'20px' }}>Hecho por:</i>
+                <i style={{ paddingTop: '30px', paddingLeft: '45px', fontSize:'20px' }}>    Gabriel Rendón</i>
+                <i style={{ paddingTop: '30px', paddingLeft: '45px', fontSize:'20px' }}>    Mario Arrevillaga</i>
+                <i style={{ paddingTop: '30px', paddingLeft: '45px', fontSize:'20px' }}>    Liliana Cruz</i>
+                <i style={{ paddingTop: '30px', paddingLeft: '45px', fontSize:'20px' }}>    Jairo Erazo</i>
+                </div>                
+                <p className="ms-0 ms-lg-5 text-light">                                        
                 </p>
             </div>
-            <div className="col-6 col-lg-3 mt-5">
-                <ul className="social-icons ms-0 ms-lg-5" style={{ color: 'white', textDecoration: 'none', cursor: 'default' }}>
-                    <li style={{ listStyle: 'none' }}>
-                        <a href="#"><i className="bi bi-facebook text-light"></i></a>
-                    </li>
-                    <li style={{ listStyle: 'none' }}>
-                        <a href="#"><i className="bi bi-twitter text-light"></i></a>
-                    </li>
-                    <li style={{ listStyle: 'none' }}>
-                        <a href="#"><i className="bi bi-vimeo text-light"></i></a>
-                    </li>
-                    <li style={{ listStyle: 'none' }}>
-                        <a href="#"><i className="bi bi-skype text-light"></i></a>
-                    </li>
-                </ul>
-            </div>
+            </div>                  
         </footer>
   </div>    
   )
